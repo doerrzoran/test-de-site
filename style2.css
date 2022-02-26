@@ -1,0 +1,91 @@
+body{
+	margin-left: 50px;
+}
+
+.header{
+	color: red;
+}
+
+.corp{
+
+}
+
+.footer{
+	border:solid;
+	background-color: gray;
+}
+
+
+
+.quisommesnous{
+
+}
+
+.noussoustenir{
+
+}
+
+.nousrejoindre{
+
+}
+
+.nouscontacter{
+
+}
+
+.evenement{
+
+}
+
+@media screen and (min-width: 700px) {
+	.titre{
+		font-size: 60px;
+	}
+
+	.tabledesmatieres{
+
+	}
+	
+	.sous-titre{
+		font-size: 50px; 
+	}
+	
+	.sous-titre2{
+		font-size: 40px;
+	}
+	
+	.sous-titre3{
+		font-size: 30px;
+	}
+	
+	.text{
+	  font-size: 20px;
+	}
+}
+
+
+@media screen and (max-width: 700px) {
+	.titre{
+		font-size: 40px;
+	}
+
+	.tabledesmatieres{
+		
+	}
+	
+	.sous-titre{
+	    font-size: 20px;
+	}
+	
+	.sous-titre2{
+	   font-size: 15px;
+	}
+	
+	.sous-titre3{
+	    font-size: 13px; 
+	}
+	
+	.text{
+	   font-size: 
+	}
+}
