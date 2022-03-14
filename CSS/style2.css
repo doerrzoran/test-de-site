@@ -1,5 +1,6 @@
 body{
 	margin-left: 50px;
+	background-color: lightgreen;
 }
 
 .header{
@@ -7,14 +8,23 @@ body{
 }
 
 .corp{
-
+	background-color: lightgray;
+	border: solid;
 }
 
 .footer{
 	border:solid;
 	background-color: gray;
+	margin-top: 30px;
 }
 
+.tabledesmatieres{
+	margin-bottom: 30px;
+}
+
+.champ{
+	margin-bottom: 10px;
+}
 
 
 .quisommesnous{
@@ -37,6 +47,21 @@ body{
 
 }
 
+.formulaire{
+	display: inline-flex;
+}
+
+
+
+
+.sous-titre{
+	color: blue;
+}
+
+.sous-titre2{
+	text-decoration: underline;
+}
+
 @media screen and (min-width: 700px) {
 	.titre{
 		font-size: 60px;
@@ -47,16 +72,13 @@ body{
 	}
 	
 	.sous-titre{
-		font-size: 50px; 
+		font-size: 40px; 
 	}
 	
 	.sous-titre2{
-		font-size: 40px;
+		font-size: 25px;
 	}
 	
-	.sous-titre3{
-		font-size: 30px;
-	}
 	
 	.text{
 	  font-size: 20px;
@@ -81,11 +103,8 @@ body{
 	   font-size: 15px;
 	}
 	
-	.sous-titre3{
-	    font-size: 13px; 
-	}
 	
 	.text{
-	   font-size: 
+	   font-size: 13px;
 	}
 }
